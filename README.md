@@ -136,7 +136,7 @@ blood-cell-image-classification/
        axes[i].axis('off')
    plt.show()
    ```
-
+![display_image](https://github.com/Arif-miad/Blood-Cell-Image-Classification-for-Cancer-Detection/blob/main/image/blo2.PNG)
 ---
 
 ### **21-30: Model Building and Training**
@@ -182,7 +182,7 @@ blood-cell-image-classification/
    plt.legend()
    plt.show()
    ```
-
+![train](https://github.com/Arif-miad/Blood-Cell-Image-Classification-for-Cancer-Detection/blob/main/image/blo3.PNG)
 ---
 
 ### **31-40: Evaluation and Deployment**
@@ -201,6 +201,9 @@ blood-cell-image-classification/
    ```python
    print(classification_report(y_true, y_pred_classes, target_names=CLASSES))
    ```
+![classification report](https://github.com/Arif-miad/Blood-Cell-Image-Classification-for-Cancer-Detection/blob/main/image/blod4.PNG)
+
+
 24. **Plot Confusion Matrix**:
    ```python
    cm = confusion_matrix(y_true, y_pred_classes)
@@ -236,10 +239,13 @@ blood-cell-image-classification/
 - **Test Accuracy:** 98%
 
 ### **Visualizations**
-- **Sample Predictions:**  
-  ![Prediction Example](results/sample_predictions/example.png)  
-- **Confusion Matrix:**  
-  ![Confusion Matrix](results/confusion_matrix.png)
+- **Sample Predictions:**
+- 
+  ![Prediction Example](https://github.com/Arif-miad/Blood-Cell-Image-Classification-for-Cancer-Detection/blob/main/image/blod.PNG)
+  
+- **Confusion Matrix:**
+- 
+  ![Confusion Matrix](https://github.com/Arif-miad/Blood-Cell-Image-Classification-for-Cancer-Detection/blob/main/image/blo1.PNG)
 
 ---
 
